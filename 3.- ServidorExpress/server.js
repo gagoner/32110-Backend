@@ -11,7 +11,17 @@ const server = app.listen(port, () => {
 server.on("error", error => console.log(`Error en el servidor ${error}`))
 
 app.get('/', async (req, res) => {
-            res.send("Hola mundo")
+    res.send(`
+    <p>Enlaces del desafío:</p>
+    <ol>
+        <li>
+            <a href="https://32110-backend.glitch.me/productos">Productos</a>
+        </li>
+        <li>
+            <a href="https://32110-backend.glitch.me/productoRandom">Producto Random</a>
+        </li>
+    </ol>
+        `)
 })
 
 app.use(express.json())
