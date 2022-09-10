@@ -26,7 +26,7 @@ apiRouter.put('/productos/:id', (req, res) => {
 
 apiRouter.delete('/productos/:id', (req, res) => {
   let id = req.params.id
-  res.status(200).json(Producto.eliminarProducto(id))
+  res.status(200).json(productos.eliminarProducto(id))
 })
 
 module.exports = apiRouter
