@@ -26,7 +26,7 @@ class Producto {
     
     get listarProducto() {
         if (this.productos.length == 0) {
-            return '{error: "No hay productos cargados."}'
+            return '{error: "No hay productos ingresados."}'
         }
         
         return this.productos
