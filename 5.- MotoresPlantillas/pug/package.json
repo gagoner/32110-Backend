@@ -3,5 +3,26 @@
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
     "pug": "^3.0.2"
-  }
+  },
+  "name": "pug",
+  "version": "1.0.0",
+  "description": "Motores de Plantillas usando Pug",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagoner/32110-Backend.git"
+  },
+  "keywords": [
+    "pug"
+  ],
+  "author": "gagoner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagoner/32110-Backend/issues"
+  },
+  "homepage": "https://github.com/gagoner/32110-Backend#readme"
 }

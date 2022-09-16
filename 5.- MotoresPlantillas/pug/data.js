@@ -7,13 +7,13 @@ exports.products = [
     },
     {
         title: "Ladybug",
-        price: "500",
+        price: "2000",
         thumbnail: "https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Ladybug-128.png",
         id: 2
     },
     {
         title: "Strawberry",
-        price: "2000",
+        price: "3000",
         thumbnail: "https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Strawberry-128.png",
         id: 3
     }

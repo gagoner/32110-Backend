@@ -15,7 +15,7 @@ app.set('views', './views/')
 
 app.use(express.static('public'))
 
-app.use('/', apiRouter)
+app.use("/", apiRouter)
 
 app.listen(PORT, (error) => {
     if (error) {
