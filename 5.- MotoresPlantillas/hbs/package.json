@@ -1,0 +1,27 @@
+{
+  "name": "5.--motoresplantillas",
+  "version": "1.0.0",
+  "description": "Desafío 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagoner/32110-Backend.git"
+  },
+  "keywords": [
+    "API",
+    "RESTful"
+  ],
+  "author": "Gabriel González Ernst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagoner/32110-Backend/issues"
+  },
+  "homepage": "https://github.com/gagoner/32110-Backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  }
+}

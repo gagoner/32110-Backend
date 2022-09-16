@@ -1,0 +1,19 @@
+<h1 class="text-center">Formulario de ingreso de productos</h1>
+<h2 class="text-center">Agregar Productos</h2>
+
+<form action="/productos" method="POST" class="container">
+    <div class="mb-3">
+        <label for="title" class="form-label">Nombre del producto</label>
+        <input type="text" class="form-control" id="title" name="title" />
+    </div>
+    <div class="mb-3">
+            <label for="price" class="form-label">Precio del producto</label>
+            <input type="text" class="form-control" id="price" name="price" />
+    </div>
+    <div class="mb-3">
+            <label for="thumbnail" class="form-label">URL del thumbnail del producto</label>
+            <input type="text" class="form-control" id="thumbnail" name="thumbnail"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Agregar producto</button>
+    <button type="info" class="btn btn-info"><a href="/productos" class="text-decoration-none text-white"> Ir al listado </a></button>
+</form>
