@@ -1,14 +1,20 @@
 exports.products = [
     {
-        title: "Red cap",
-        price: "256",
-        thumbnail: "https://cdn2.iconfinder.com/data/icons/spring-30/30/Cap-256.png",
+        title: "Clover",
+        price: "1000",
+        thumbnail: "https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Clover-128.png",
         id: 1
     },
     {
-        title: "joystic",
+        title: "Ladybug",
         price: "500",
-        thumbnail: "https://http2.mlstatic.com/D_NQ_NP_627251-MLA45317849365_032021-V.webp",
+        thumbnail: "https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Ladybug-128.png",
         id: 2
+    },
+    {
+        title: "Strawberry",
+        price: "2000",
+        thumbnail: "https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Strawberry-128.png",
+        id: 3
     }
 ]
