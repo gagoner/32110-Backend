@@ -1,0 +1,29 @@
+<h2 class="text-center"><strong>Listado de productos</strong></h2>
+
+<% if (productos.length > 0) { %>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-center">Ítem</th>
+                <th class="text-center">Producto</th>
+                <th class="text-center">Valor</th>
+                <th class="text-center">Imagen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% productos.forEach(item => { %>
+            <tr>
+                <th class="text-center text-secondary"> <%= item.id %> </th>
+                <th class="text-center text-secondary"> <%= item.title %> </th>
+                <th class="text-center text-secondary"> <%= item.price %> </th>
+                <th class="text-center text-secondary"><img width="40" height="40" src="<%=item.thumbnail %>" /></th>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+    <button type="info" class="btn btn-info"><a href="/" class="text-decoration-none text-white">Volver al formulario</a></button>
+</div>
+<% } else { %>
+    <h3 class="alert alert-danger">No hay productos</h3>
+<% } %>
