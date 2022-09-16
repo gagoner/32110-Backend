@@ -1,0 +1,19 @@
+div.table-responsive
+    table.table.table-striped
+        thead
+        tr
+            th.text-center #
+            th.text-center Producto
+            th.text-center Precio
+            th.text-center Imagen
+        tbody
+            each n in productos
+                tr
+                    th.text-center.text-secondary= n.id
+                    th.text-center.text-secondary= n.title
+                    th.text-center.text-secondary= n.price
+                    th.text-center.text-secondary
+                        img(width="40",height="40",src= n.thumbnail , alt="image")
+            else
+                h3.alert.alert-danger No hay productos
+    a(href="/" , class="text-decoration-none text-white") Volver al formulario
