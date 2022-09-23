@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "email": "Hola",
+    "timestamp": "22/9/2022, 23:55:21",
+    "message": "Hola"
+  },
+  {
+    "id": 2,
+    "email": "Juan",
+    "timestamp": "22/9/2022, 23:56:04",
+    "message": "Hola"
+  },
+  {
+    "id": 3,
+    "email": "zcxzc@dasdas.cl",
+    "timestamp": "23/9/2022, 0:39:16",
+    "message": "Hola"
+  }
+]
