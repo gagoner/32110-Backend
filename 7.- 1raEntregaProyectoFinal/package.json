@@ -1,28 +1,23 @@
 {
   "name": "7.--1raentregaproyectofinal",
   "version": "1.0.0",
-  "description": "Desafío 7",
+  "description": "Primera entrega de Desafío Final",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gagoner/32110-Backend.git"
+    "url": "git+https://github.com/gagoner/32110-Backend.git#main"
   },
-  "keywords": [
-    "Websockets"
-  ],
   "author": "gagoner",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gagoner/32110-Backend/issues"
   },
-  "homepage": "https://github.com/gagoner/32110-Backend#readme",
+  "homepage": "https://github.com/gagoner/32110-Backend/tree/main#readme",
   "dependencies": {
-    "express": "^4.18.1",
     "nodemon": "^2.0.20"
   }
 }
