@@ -1,0 +1,29 @@
+{
+  "name": "8.--1rabasedatos",
+  "version": "1.0.0",
+  "description": "Primera base de datos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --inspect ./src/index.js",
+    "rebuildDB": "node ./dao/start/RebuildDB.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagoner/32110-Backend.git"
+  },
+  "author": "gagoner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagoner/32110-Backend/issues"
+  },
+  "homepage": "https://github.com/gagoner/32110-Backend#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "sqlite3": "^5.1.2"
+  }
+}
