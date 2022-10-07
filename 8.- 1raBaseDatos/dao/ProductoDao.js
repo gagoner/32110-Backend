@@ -8,7 +8,7 @@ export class ProductoDao {
     async save(object) {
         try {
             const newProductId = await knex.insert(object).from(this.TABLE_NAME);        
-            console.log(`✔️ Product added with ID: ${newProductId}.`);
+            console.log(`Product added with ID: ${newProductId}.`);
             return newProductId;
         } catch (error) {
             console.log(error);
