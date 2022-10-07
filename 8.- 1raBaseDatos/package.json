@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Primera base de datos",
   "main": "index.js",
+  "ype": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon --inspect ./src/index.js",
