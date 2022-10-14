@@ -1,18 +1,1 @@
-{
-  "indexes": [
-    {
-      "v": {
-        "$numberInt": "2"
-      },
-      "key": {
-        "_id": {
-          "$numberInt": "1"
-        }
-      },
-      "name": "_id_"
-    }
-  ],
-  "uuid": "b025ce6d89f44d318cc64004432cf665",
-  "collectionName": "productos",
-  "type": "collection"
-}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b406673a7b60426b9801c9f9cadbcd55","collectionName":"productos","type":"collection"}
