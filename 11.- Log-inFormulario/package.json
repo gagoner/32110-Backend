@@ -1,5 +1,5 @@
 {
-  "name": "coderhouse-backend",
+  "name": "desafio11",
   "type": "module",
   "version": "1.0.0",
   "description": "",
@@ -26,13 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucasmg-dev/coderhouse-backend.git"
+    "url": "git+https://github.com/gagoner/32110-Backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lucasmg-dev/coderhouse-backend/issues"
+    "url": "https://github.com/gagoner/32110-Backend/issues"
   },
-  "homepage": "https://github.com/lucasmg-dev/coderhouse-backend#readme"
+  "homepage": "https://github.com/gagoner/32110-Backend#readme"
 }
