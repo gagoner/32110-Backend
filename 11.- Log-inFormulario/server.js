@@ -161,9 +161,12 @@ app.get("/failregister", (req, res) => {
 	res.render("register-error", {});
 });
 
-app.get("/logout", (req, res) => {
+app.get("/logout", (req, res, next) => {
 	const { username } = req.user;
-	req.logout();
+	req.logout(function(err) {
+		if (err) { return next(err); }
+		res.redirect('/');
+	});
 	res.render("logout", { username });
 });
 
