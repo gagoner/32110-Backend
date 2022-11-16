@@ -2,7 +2,7 @@
   "name": "desafio11",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Desafío 11 Log-in por Formulario",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -12,8 +12,9 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.0",
     "express-session": "^1.17.1",
+    "mongodb": "^4.11.0",
     "mongoose": "^5.12.5",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-facebook": "^3.0.0",
     "passport-local": "^1.0.0",
     "rxjs": "^6.6.6",
@@ -29,7 +30,7 @@
     "url": "git+https://github.com/gagoner/32110-Backend.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "gagoner",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gagoner/32110-Backend/issues"
