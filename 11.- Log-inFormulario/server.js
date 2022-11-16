@@ -12,7 +12,7 @@ import { Strategy as LocalStrategy } from "passport-local";
 import { User } from "./models/user.js";
 
 const MONGO_DB_URI =
-	"mongodb+srv://gagoner:<password>@cluster0.1kiij3y.mongodb.net/?retryWrites=true&w=majority";
+	"mongodb+srv://gagoner:12345699@cluster0.1kiij3y.mongodb.net/?retryWrites=true&w=majority";
 
 const app = express();
 
